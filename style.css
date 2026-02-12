@@ -30,7 +30,7 @@
    nav {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 6px;
   flex-wrap: nowrap;
   }
 
@@ -128,7 +128,7 @@
 
     a {
   color: orange;
-}
+   }
 
     footer {
       background: #222;
