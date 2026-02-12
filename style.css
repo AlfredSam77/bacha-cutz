@@ -27,6 +27,13 @@
       white-space: nowrap;
     }
 
+   nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+  }
+
     nav a {
       color: #fff;
       margin-left: 20px;
@@ -118,6 +125,10 @@
     .contact p {
       margin-bottom: 10px;
     }
+
+    a {
+  color: orange;
+}
 
     footer {
       background: #222;
