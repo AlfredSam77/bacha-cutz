@@ -15,14 +15,16 @@
     header {
       background: #ff7a00;
       color: #fff;
-      padding: 15px 30px;
+      padding: 10px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: nowrap;
     }
 
     header h1 {
       font-size: 2rem;
+      white-space: nowrap;
     }
 
     nav a {
@@ -30,6 +32,7 @@
       margin-left: 20px;
       text-decoration: none;
       font-weight: bold;
+      white-space: nowrap;
     }
 
     nav a:hover {
@@ -133,8 +136,4 @@
       }
     }
 
-    /* @media (max-width:480)
-   h1 {
-    font-size: 1.5rem;
-      
-    } */
+    
