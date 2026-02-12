@@ -22,7 +22,7 @@
     }
 
     header h1 {
-      font-size: 24px;
+      font-size: 2rem;
     }
 
     nav a {
@@ -124,8 +124,17 @@
       margin-top: 40px;
     }
 
-    @media (max-width: 600px) {
+    @media  (max-width: 480px) {
       .hero h2 {
         font-size: 34px;
       }
+      h1{
+        font: size 1.5em; 
+      }
     }
+
+    /* @media (max-width:480)
+   h1 {
+    font-size: 1.5rem;
+      
+    } */
