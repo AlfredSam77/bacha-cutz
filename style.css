@@ -15,11 +15,11 @@
     header {
       background: #ff7a00;
       color: #fff;
-      padding: 10px 20px;
+      padding: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: nowrap;
+      flex-wrap:wrap;
     }
 
     header h1 {
@@ -29,9 +29,9 @@
 
    nav {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: nowrap;
+  /* align-items: center; */
+  gap: 1px;
+  flex-wrap: wrap;
   }
 
     nav a {
@@ -40,6 +40,7 @@
       text-decoration: none;
       font-weight: bold;
       white-space: nowrap;
+      font-size: 14px;
     }
 
     nav a:hover {
